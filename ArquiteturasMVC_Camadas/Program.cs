@@ -1,9 +1,13 @@
-﻿namespace ArquiteturasMVC_Camadas;
+﻿using ArquiteturasMVC_Camadas.controllers;
+using ArquiteturasMVC_Camadas.views;
+
+namespace ArquiteturasMVC_Camadas;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       AlunoController controller = new AlunoController(new AlunoView());
+       controller.Executar();
     }
 }

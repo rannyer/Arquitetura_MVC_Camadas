@@ -4,11 +4,13 @@ namespace ArquiteturasMVC_Camadas.views;
 
 public class AlunoView 
 {
-    public void ExibirMenu()
+    public int ExibirMenu()
     {
         Console.WriteLine("\n==== ALUNO ====\n");
         Console.WriteLine("1) Cadastrar Aluno");
         Console.WriteLine("2) Listar Aluno");
+        int menu = int.Parse(Console.ReadLine());
+        return menu;
     }
 
     public Aluno ColetarDados()
@@ -45,5 +47,10 @@ public class AlunoView
         Console.WriteLine($"Nota1: {aluno.Nota1}");
         Console.WriteLine($"Nota2: {aluno.Nota2}");
         Console.WriteLine($"Aprovado: {(aluno.isAprovado() ? "Sim" : "Não")}");
+    }
+
+    public void ExibirMensagem(string mensagem)
+    {
+        Console.WriteLine($"\n[AVISO] {mensagem}");
     }
 }

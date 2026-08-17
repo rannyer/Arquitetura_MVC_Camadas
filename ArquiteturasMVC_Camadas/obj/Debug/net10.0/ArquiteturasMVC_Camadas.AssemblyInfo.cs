@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArquiteturasMVC_Camadas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fc13e2e4f003917d3be7628f894a08bd5722650")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArquiteturasMVC_Camadas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArquiteturasMVC_Camadas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
